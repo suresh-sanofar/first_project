@@ -1,0 +1,34 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(wp7084089.jpg);
+}
+h1{
+    color: #333;
+}
+p{
+    color: #333;
+}
+button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightseagreen;
+    
+}
+button.hover{
+    color: #0736d3;
+}
+footer{
+    background: transparent;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+}
+.pr{
+    color: aliceblue;
+    text-align: center;
+}
+a{
+    color: aliceblue;
+}
