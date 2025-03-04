@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="shortcut icon" type="img/png" href="dsBuffer.jpg">
     <style>
         body{
             margin: 0;
             padding: 0;
-            background-image: url(wp7084089.jpg);
+            background-image: url(00_53_21.jpg);
             background-size: cover;
         }
         .container{
@@ -19,9 +20,12 @@
         }
         .card{
             padding: 60px 40px 50px 40px;
-            background: rgb(255, 114, 62);
+           
             border-radius: 10px;
             width: 50;
+            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
         }
         #name{
             border: none;
@@ -30,7 +34,7 @@
             padding: 6px;
             margin-bottom: 15px;
             width: 300px;
-            color: rgb(37, 21, 21);
+            color: rgb(255, 114, 62);
             outline: none;
         }
         #button{
@@ -46,7 +50,7 @@
         }
         a{
             font-size: 13px;
-            color: rgb(255, 255, 255);
+            color: black;
             text-align: center;
             margin-left: 20px;
         }
@@ -55,17 +59,12 @@
             color: rgb(255, 114, 62);
             cursor: pointer;
         }
-        img{
-            border-radius: 50%;
-            position: absolute;
-            margin-left: 160px;
-            margin-top: -40px;
-        }
+       
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="dsBuffer.jpg" height="70" width="70">
+        
         <div class="card">
             <input type="email" placeholder="Insert your E-mail" id="name"><br><br>
             <input type="password" placeholder="We don't share your password" id="name"><br><br>
