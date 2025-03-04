@@ -3,12 +3,14 @@ body{
     background-size: cover;
 }
 h1{
-    color: #cc5016;
+    color: #201b19;
 }
 .div{
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    text-decoration: overline;
    background-color: #333;
+   font-weight: 700;
+   font-size: xx-large;
 }
 p{
     color: #2c2928;
@@ -30,6 +32,7 @@ button{
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 50px 50px 50px 50px;
+    font-weight: 100;
 }
 button.span{
     cursor: pointer;
