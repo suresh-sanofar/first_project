@@ -1,6 +1,6 @@
 body{
     background-image: url(wp7084089.jpg);
-    background-position: center;
+    background-size: cover;
 }
 h1{
     color: #cc5016;
@@ -8,9 +8,10 @@ h1{
 .div{
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    text-decoration: overline;
+   background-color: #333;
 }
 p{
-    color: #cc5016;
+    color: #2c2928;
 }
 button{
     border-radius: 4px;

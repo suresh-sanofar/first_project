@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in form</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url(wp7084089.jpg);
+            background-size: cover;
+        }
+        .container{
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+        }
+        .card{
+            padding: 60px 40px 50px 40px;
+            background: rgb(255, 114, 62);
+            border-radius: 10px;
+            width: 50;
+        }
+        #name{
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid rgb(255, 255, 255);
+            padding: 6px;
+            margin-bottom: 15px;
+            width: 300px;
+            color: rgb(37, 21, 21);
+            outline: none;
+        }
+        #button{
+            border-radius: 20px;
+            padding: 10px 20px;
+            background: rgb(42, 46, 51);
+            color: white;
+            margin-top: 20px;
+            border: none;
+            outline: none;
+            margin-left: 110px;
+            text-align: center;
+        }
+        .a1{
+            padding: 10px 20px;
+            text-align: center;
+        }
+        a{
+            font-size: 13px;
+            color: rgb(255, 255, 255);
+        }
+        img{
+            border-radius: 50%;
+            position: absolute;
+            margin-left: 160px;
+            margin-top: -40px;
+        }
+        #button:hover{
+            background-color:  rgb(42, 46, 51);
+            color: rgb(255, 114, 62);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="dsBuffer.jpg" height="70" width="70">
+        <div class="card">
+            <input type="text" placeholder="Insert your username" id="name"><br><br>
+            <input type="password" placeholder="We don't share your password" id="name"><br><br>
+            <a href="#">Forget password?</a><br><br>
+            <input type="submit" value="Sumbit" id="button"><br>
+            <a class="a1" href="#"><h3>already have an Account!</h3></a>
+        </div>
+    </div>
+</body>
+</html>
